@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://digitalmanutencao.com.br/sitemap.xml
+EnviarPhp: http://digitalmanutencao.com.br/enviar.php

@@ -1,0 +1,223 @@
+html{
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+html body{
+	background-color: #CDDDE3;
+}
+
+.servicos h3{
+	color: rgb(0, 33, 94);
+	text-align: center;
+	font-size: 18px;
+	padding: 40px 0 0;
+}
+
+.container{
+    margin-right: auto;    
+    margin-left: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 1024px;
+}
+			
+.none{
+	display: none;
+}			
+
+html body h1{
+	font-size: 28px;
+	text-align: center;
+}
+
+html body h2{
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+html body h5{
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+
+header .logo{
+	width: 160px;
+}
+
+
+header nav ul{
+	list-style-type: none;
+	margin: 0;
+}
+			
+header nav ul li{
+	text-align: center;
+	display: inline-block;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px;
+}
+.section-header h3{
+	text-align: center;
+}
+
+.quebra-de-linha-servicos{
+	margin-top: -40px;
+}
+
+.servicos h5{
+	text-align: center;
+	color: rgba(0, 33, 94, 1);
+}
+
+.servicos p{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.servicos-imagens img{
+    display: block;
+    width: 300px;
+   	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.servicos-div-img{
+	margin: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.servicos-div-img p{
+	font-family: 'Poppins', sans-serif;
+}
+
+.servicos a{
+	transition: all 0.2s;
+}
+			
+.js .ul-no-js{
+	display: none;
+}
+
+.js .opacity{
+	opacity: 0.4;
+}
+
+.js .js-menu-servicos{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 40%;
+	max-width: 500px;
+	height: 100vh;
+	background-color: white;
+	opacity: 1;
+	z-index: 2;
+}
+
+.js .js-menu-servicos ul{
+	margin-top: 100px
+}
+
+.js .js-menu-servicos li{
+	display: block;
+	margin: 20px;
+}
+
+.js .js-menu-servicos li a{
+	color: black;
+	text-align: center;
+	font-size: 18px;
+}
+
+.js .js-menu-servicos li a:hover{
+	color:  rgba(0, 33, 94, 0.9);
+}
+
+.js .js-hamburguer-servicos{
+	display: block;
+	cursor: pointer;
+}
+
+.js .js-hamburguer-servicos i{
+	font-size: 24px;
+	color: #FF8C00;
+}
+
+.fecha-menu-servicos{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	cursor: pointer;
+}
+			
+.footer{
+	width: 100vw;
+	background-color: rgba(0, 33, 94, 0.9);
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+			
+.btn-whats{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 3;
+}
+
+			
+@media screen and (min-width: 1024px){
+	.servicos p{
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.servicos{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.servicos-imagens img{
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin-right: 20px;
+		float: left;
+	}
+
+	.servicos-div-img{
+		margin: 100px;
+	}
+
+	.servicos-div-img p{
+		font-family: 'Poppins', sans-serif;
+
+	}
+
+	.servicos a{
+		transition: all 0.2s;
+	}
+}
