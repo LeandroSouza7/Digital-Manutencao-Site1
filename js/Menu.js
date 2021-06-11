@@ -15,7 +15,6 @@ export class Menu{
 	verificaTamanhoInicial(){
 		window.addEventListener('resize', () => {
 			const w = window.innerWidth;
-			console.log('vai')
 			this.verificaTamanho(w);
 		})
 	}
