@@ -96,7 +96,7 @@
 			//enviar
 
 			   // emails para quem será enviado o formulário
-			  $destino = "atendimento@digitalmanutencao.com.br";
+			  $destino = "contato@digitalmanutencao.com.br";
 			  $assunt = "Contato pelo Site";
 
 			  // É necessário indicar que o formato do e-mail é html
