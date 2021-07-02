@@ -328,6 +328,10 @@ header nav ul li a{
 	color: white;
 }
 
+.footer .buscacliente{
+	margin: 20px;
+}
+
 .js .ul-no-js{
 	display: none;
 }
@@ -438,7 +442,12 @@ header nav ul li a{
 		height: 85%;
 	}
 
-	
+	.servicos-div-img h3{
+		color: rgb(0, 33, 94);
+		height: 70px;
+		text-align: center;
+	}
+
 	.clientes-cards{
 		height: 100%;
 		overflow: hidden;
@@ -487,6 +496,17 @@ header nav ul li a{
 		grid-column-start: 1;
 		grid-column-end: -1;
 		margin-top: 100px;
+	}
+	
+	.footer .container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.footer .container .buscacliente img{
+		width: 80%;
+		height: 80%;
 	}
 	
 }

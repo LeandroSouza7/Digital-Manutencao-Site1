@@ -134,6 +134,10 @@ header nav ul li a{
 	text-decoration: none;
 	color: white;
 }
+
+.footer .buscacliente{
+	margin: 20px;
+}
 			
 .js .ul-no-js{
 	display: none;
@@ -225,5 +229,16 @@ header nav ul li a{
 
 	.servicos a{
 		transition: all 0.2s;
+	}
+	
+	.footer .container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.footer .container .buscacliente img{
+		width: 80%;
+		height: 80%;
 	}
 }
